@@ -3,7 +3,8 @@
 , "description" : "Repository Explorer"
 ,"dependencies": {
     "express": "3.x",  
-    "jade": "latest"    
+    "jade": "latest",
+    "comandante":"*"  
   }
 }
 
