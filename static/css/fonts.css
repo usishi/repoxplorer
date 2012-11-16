@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'UbuntuLight';
+    src: url('../fonts/Ubuntu-L-webfont.eot');
+    src: url('../fonts/Ubuntu-L-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-L-webfont.woff') format('woff'),
+         url('../fonts/Ubuntu-L-webfont.ttf') format('truetype'),
+         url('../fonts/Ubuntu-L-webfont.svg#UbuntuLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Fonts */
+
+body, 
+input[type="submit"] {
+  font: 13px 'UbuntuLight', Tahoma, sans-serif;letter-spacing: 0;}
+}
+
