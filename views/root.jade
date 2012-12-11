@@ -1,8 +1,24 @@
 extends _layout
 block scripts
-
+  script(src='/static/js/clientside.js')
 block styles
   
 block content
-  | aaa
-  ul !{htmlcontent}
+  div
+    | Directory List
+    br
+    ul !{dirlist}
+    br        
+  | Repositories 
+  br
+  table
+    tr
+      td(style='vertical-align:top;').span3
+        table
+          | !{gitlist}
+      td.span1            
+      td.span8
+        div#divGitLogTitle(style='font-weight:bold;')
+        div#divGitLog            
+          table.table.table-striped#tblGitLog
+
