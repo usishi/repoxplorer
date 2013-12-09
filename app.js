@@ -8,7 +8,7 @@ var app = express();
 var Config = global.Config = require('./config').config;
 
 app.configure(function() {
-  app.set('port',process.env.PORT || 8082);
+  app.set('port',process.env.PORT || 8086);
   app.use(express.favicon());
   app.use('/static',express.static(__dirname + '/static'));
   app.set('views', __dirname + '/views');
